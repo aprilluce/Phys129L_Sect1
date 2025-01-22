@@ -1,0 +1,150 @@
+  244  git init
+  245  git config --global user.name aprilluce
+  246  git config --global user.email aluce@ucsb.edu
+  247  git checkout -b main 
+  248  touch decimal_to_hex_or_binary.sh
+  249  code ./decimal_to_hex_or_binary.sh
+  250  chmod +x decimal_to_hex_or_binary.sh
+  251  ./decimal_to_hex_or_binary.sh 1 hexadecimal
+  252  ./decimal_to_hex_or_binary.sh 1
+  253  ./decimal_to_hex_or_binary.sh 1
+  254  ./decimal_to_hex_or_binary.sh 1
+  255  ./decimal_to_hex_or_binary.sh 1
+  256  ./decimal_to_hex_or_binary.sh 1
+  257  ./decimal_to_hex_or_binary.sh 2
+  258  ./decimal_to_hex_or_binary.sh 16
+  259  history | tail -n 20 > P3_history.txt
+  260  cat P3_history.txt
+  261  ls
+  262  #now let's add the results for both tables to a text file
+  263  ./decimal_to_hex_or_binary.sh 1 > conversion_result.txt
+  264  cat conversion_result.txt
+  265  ./decimal_to_hex_or_binary.sh 1 > conversion_result.txt
+  266  cat conversion_result.txt
+  267  ./decimal_to_hex_or_binary.sh 2 >> conversion_result.txt
+  268  cat conversion_result.txt
+  269  ./decimal_to_hex_or_binary.sh 3 >> conversion_result.txt
+  270  ./decimal_to_hex_or_binary.sh 4 >> conversion_result.txt
+  271  ./decimal_to_hex_or_binary.sh 5 >> conversion_result.txt
+  272  ./decimal_to_hex_or_binary.sh 6 >> conversion_result.txt
+  273  ./decimal_to_hex_or_binary.sh 7 >> conversion_result.txt
+  274  ./decimal_to_hex_or_binary.sh 8 >> conversion_result.txt
+  275  ./decimal_to_hex_or_binary.sh 9 >> conversion_result.txt
+  276  ./decimal_to_hex_or_binary.sh 10 >> conversion_result.txt
+  277  ./decimal_to_hex_or_binary.sh 11 >> conversion_result.txt
+  278  ./decimal_to_hex_or_binary.sh 12 >> conversion_result.txt
+  279  ./decimal_to_hex_or_binary.sh 13 >> conversion_result.txt
+  280  ./decimal_to_hex_or_binary.sh 14 >> conversion_result.txt
+  281  ./decimal_to_hex_or_binary.sh 15 >> conversion_result.txt
+  282  ./decimal_to_hex_or_binary.sh 16 >> conversion_result.txt
+  283  ./decimal_to_hex_or_binary.sh 26 >> conversion_result.txt
+  284  ./decimal_to_hex_or_binary.sh 31 >> conversion_result.txt
+  285  ./decimal_to_hex_or_binary.sh 32 >> conversion_result.txt
+  286  cat conversion_result.txt
+  287  echo "The above results come from converting the decimal numbers in table 1 to hexadecimals, in order" >> conversion_result.txt
+  288  cat conversion_result.txt
+  289  ./decimal_to_hex_or_binary.sh 1 >> conversion_result.txt
+  290  ./decimal_to_hex_or_binary.sh 2 >> conversion_result.txt
+  291  ./decimal_to_hex_or_binary.sh 3 >> conversion_result.txt
+  292  ./decimal_to_hex_or_binary.sh 4 >> conversion_result.txt
+  293  ./decimal_to_hex_or_binary.sh 5 >> conversion_result.txt
+  294  ./decimal_to_hex_or_binary.sh 6 >> conversion_result.txt
+  295  ./decimal_to_hex_or_binary.sh 7 >> conversion_result.txt
+  296  ./decimal_to_hex_or_binary.sh 8 >> conversion_result.txt
+  297  ./decimal_to_hex_or_binary.sh 9 >> conversion_result.txt
+  298  ./decimal_to_hex_or_binary.sh 10 >> conversion_result.txt
+  299  ./decimal_to_hex_or_binary.sh 11 >> conversion_result.txt
+  300  ./decimal_to_hex_or_binary.sh 12 >> conversion_result.txt
+  301  ./decimal_to_hex_or_binary.sh 13 >> conversion_result.txt
+  302  ./decimal_to_hex_or_binary.sh 14 >> conversion_result.txt
+  303  ./decimal_to_hex_or_binary.sh 15 >> conversion_result.txt
+  304  ./decimal_to_hex_or_binary.sh 16 >> conversion_result.txt
+  305  ./decimal_to_hex_or_binary.sh 26 >> conversion_result.txt
+  306  ./decimal_to_hex_or_binary.sh 31 >> conversion_result.txt
+  307  ./decimal_to_hex_or_binary.sh 32 >> conversion_result.txt
+  308  echo  "The above results come from converting the decimal numbers in table 1 to binary numbers, in order"
+  309  echo  "The above results come from converting the decimal numbers in table 1 to binary numbers, in order" >> conversion_result.txt
+  310  cat conversion_result.txt
+  311  ./decimal_to_hex_or_binary.sh 125064 >> conversion_result.txt
+  312  ./decimal_to_hex_or_binary.sh 7816 >> conversion_result.txt
+  313  ./decimal_to_hex_or_binary.sh 488 >> conversion_result.txt
+  314  ./decimal_to_hex_or_binary.sh 30 >> conversion_result.txt
+  315  ./decimal_to_hex_or_binary.sh 16 >> conversion_result.txt
+  316  ./decimal_to_hex_or_binary.sh 1 >> conversion_result.txt
+  317  echo  "The above results come from converting the decimal numbers in table 2 to hexadecimals, in order" >> conversion_result.txt
+  318  ./decimal_to_hex_or_binary.sh 125064 >> conversion_result.txt
+  319  ./decimal_to_hex_or_binary.sh 7816 >> conversion_result.txt
+  320  ./decimal_to_hex_or_binary.sh 488 >> conversion_result.txt
+  321  ./decimal_to_hex_or_binary.sh 30 >> conversion_result.txt
+  322  ./decimal_to_hex_or_binary.sh 16 >> conversion_result.txt
+  323  ./decimal_to_hex_or_binary.sh 1 >> conversion_result.txt
+  324  echo  "The above results come from converting the decimal numbers in table 2 to binary numbers, in order" >> conversion_result.txt
+  325  cat conversion_result.txt
+  326  echo  "conversion for 125064 exceeds limit set by problem, so converion fails. All other conversions are performed successfully" >> conversion_result.txt
+  327  history | tails -80 >> P3_history.txt
+  328  history | tail -n 80 >> P3_history.txt
+  329  cat P3_history.txt
+  330  git remote add origin https://github.com/aprilluce/Problem_3
+  331  ls
+  332  git add .
+  333  git commit -m "Committing bash script conversions and results"
+  334  git push
+  335  git push --set-upstream origin main
+  336  cd /root/Desktop/host
+  337  ls
+  338  git checkout feature_branch
+  339  git init
+  340  git checkout feature_branch
+  341  git commit -m "committing so I can switch branches to complete HW 1 Problem 4"
+  342  rm mesh.dat
+  343  rm phys129L_section2_task1.py
+  344  rm  phys129L_section2_task1_execute.py
+  345  ls
+  346  git add .
+  347  git rm --cached git_clone/Phys129L_Sect1
+  348  git rm -f --cached git_clone/Phys129L_Sect1
+  349  ls
+  350  git add .
+  351  git rm -rf git_clone/Phys129L_Sect1
+  352  git rm -rf ./git_clone/Phys129L_Sect1
+  353  ls
+  354  rm git_clone
+  355  rm -rf git_clone
+  356  ls
+  357  git commit -m "committing changes from section"
+  358  git push
+  359  checkout feature_branch
+  360  git checkout feature_branch
+  361  git pull
+  362  git checkout feature_branch
+  363  touch README.md
+  364  ls
+  365  echo "hello world!" >> README.md
+  366  cat README.md
+  367  git add .
+  368  git commit -m "readme file created in feature branch:
+
+
+q
+:wq
+"
+  369  git push origin feature_branch:feature_branch
+  370  git checkout main
+  371  git merge feature_branch
+  372  git status
+  373  code ./src_info.txt
+  374  git status
+  375  git add src_info.txt
+  376  git status
+  377  git merge feature_branch
+  378  git commit -m "beginning merge"
+  379  git merge feature_branch
+  380  ls
+  381  git push origin main
+  382  #problem 4.2 I can see the readme file both locally and on the remote!
+  383  git pull
+  384  git pull origin
+  385  git pull origin
+  386  cat README.md
+  387  #problem 4.3 After editing from the remote and committing the changes manually on github remote, I can see the changes after a git pull
+  388  history | tail -n 150 > HW_1_P4_history.txt
